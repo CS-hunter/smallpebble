@@ -1,0 +1,19 @@
+.page-container {
+  display: flex;
+  justify-content; center;
+}
+
+.page-column {
+  border: 1px solid #000;
+  background-color: #b3daff;
+  height: 5000px;
+  flex: 1;
+}
+
+.column-one,
+.column-three {
+  background-color: #b3daff;
+  flex: initial;
+  width: 200px;
+
+}

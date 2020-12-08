@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1600px;
+  font-size 20px;
+  font-family: sans-serif;
+  color: #000000;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 50px;
+  background: #FFF;
+  border-bottom: 1px solid #000;
+}
+
+.menu {
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+.rocklogo {
+  display: flex;
+  font-size: 20px;
+  margin-left: 100px;
+
+  align-items: flex-end;
+}
+
+.logotext {
+  display: flex;
+  margin-right: auto;
+  font-size: 30px;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+
+a:link,
+a:visited {
+  color: #476b6b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+.page-column {
+  background-color: #FFF;
+  height: 1600px;
+  flex: 1;
+}
+
+.column-two {
+  flex: initial;
+  width: 800px;
+  position: static;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.column-one,
+.column-three {
+  background-color: #FFF;
+}
+
+.elementone,
+.elementtwo,
+.elementthree {
+  margin-bottom: 50px;
+}
+
+.aboutpage {
+  height: 2600px;
+}
